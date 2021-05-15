@@ -40,7 +40,8 @@ const Calculator = {
 function actionApplyer(a, arr = [function(a){ return a * 2 },
           function(a){ return a + 1000},
           function(a){ return a % 7 }]) {
-            return 
+            let result = a;
+            
   
 }
 
