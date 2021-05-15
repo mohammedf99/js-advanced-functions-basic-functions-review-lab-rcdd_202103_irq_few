@@ -44,6 +44,8 @@ function actionApplyer(a, arr = [function(a){ return a * 2 },
             
             for(let i = 0; i < arr.length; i++){
     result = arr[i](result);
+    
+    return result
   }
   
 }
