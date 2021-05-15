@@ -7,3 +7,9 @@ function saturdayFun(activity = "roller-skate") {
 function mondayWork(activity = "got to the office") {
   return `This Monday, I will ${activity}.`;
 }
+
+function wrapAdjective() {
+  return function() {
+    
+  }
+}
