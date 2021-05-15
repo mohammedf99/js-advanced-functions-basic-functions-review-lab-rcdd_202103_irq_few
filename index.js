@@ -16,4 +16,8 @@ function wrapAdjective(outerPara = "*") {
 
 const encouragingPromptFunction = wrapAdjective("!!!")
 
-const Calculator
+const Calculator = {
+  add() {
+    
+  }
+}
