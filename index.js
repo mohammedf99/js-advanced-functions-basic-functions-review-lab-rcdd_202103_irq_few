@@ -42,6 +42,7 @@ function actionApplyer(a, arr = [function(a){ return a * 2 },
           function(a){ return a % 7 }]) {
             let result = a;
             
+            for()
   
 }
 
