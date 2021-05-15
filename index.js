@@ -8,8 +8,10 @@ function mondayWork(activity = "got to the office") {
   return `This Monday, I will ${activity}.`;
 }
 
-function wrapAdjective() {
+function wrapAdjective(outerPara = "*") {
   return function(adj = "special") {
     return `You are ${adj}`;
   }
 }
+
+const encouragingPro
