@@ -36,3 +36,12 @@ const Calculator = {
     
   }
 }
+
+function actionApplyer(num, arr) {
+  
+}
+
+
+
+
+
