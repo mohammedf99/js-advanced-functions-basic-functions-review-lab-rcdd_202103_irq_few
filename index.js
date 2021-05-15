@@ -46,8 +46,9 @@ function actionApplyer(num, arr = [
   for(let i=0; i<arr.length; i++){
     result = arrayOfTransforms[i](result);
   }
-
-  return result
+  
+  console.log(result)
+  return result;
 
 }
 
