@@ -37,17 +37,18 @@ const Calculator = {
   }
 }
 
-function actionApplyer(a, arr = [function(a){ return a * 2 },
+function actionApplyer(num, arr = [
+          function(a){ return a * 2 },
           function(a){ return a + 1000},
-          function(a){ return a % 7 }]) {
-            let result = a;
-            
-            for(let i = 0; i < arr.length; i++){
-    result = arr[i](result);
-    
-    return result
+          function(a){ return a % 7 }
+        ]){
+  let result = num;
+  for(let i=0; i<arrayOfTransforms.length; i++){
+    result = arrayOfTransforms[i](result);
   }
-  
+  console.log(result);
+  return result
+
 }
 
 
