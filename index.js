@@ -1,7 +1,7 @@
 // Your code here
 
 function saturdayFun(activity = "roller-skate") {
-  return `This is Saturday, I want to ${activity}!`;
+  return `This Saturday, I want to ${activity}!`;
 }
 
 function mondayWork(activity = "got to the office") {
@@ -10,7 +10,7 @@ function mondayWork(activity = "got to the office") {
 
 function wrapAdjective(outerPara = "*") {
   return function(adj = "special") {
-    return `You are ${outerPara}${adj}${outerPara}`;
+    return `You are ${outerPara}${adj}${outerPara}!`;
   }
 }
 
