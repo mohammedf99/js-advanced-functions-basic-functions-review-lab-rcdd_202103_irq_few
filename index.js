@@ -14,4 +14,4 @@ function wrapAdjective(outerPara = "*") {
   }
 }
 
-const encouragingPro
+const encouragingPromptFunction = wrapAdjective("!!!")
