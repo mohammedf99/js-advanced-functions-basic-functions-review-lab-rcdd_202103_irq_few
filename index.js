@@ -15,3 +15,7 @@ function wrapAdjective(outerPara = "*") {
 }
 
 const encouragingPromptFunction = wrapAdjective("!!!")
+
+Object Calculator = add() {
+  
+};
